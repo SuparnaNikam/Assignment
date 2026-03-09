@@ -34,7 +34,7 @@ latitude: 37.7749,
 longitude: -122.4194
 };
 
-console.log(`Coordinates of a location latitude = $"coordinates.latitude} and  longitude = ${coordinates.longitude}`);
+console.log(`Coordinates of a location latitude = ${coordinates.latitude} and  longitude = ${coordinates.longitude}`);
 
 
 
@@ -136,3 +136,21 @@ console.log(`Distance between two cities:  ${distance}`);
 //distance = Symbol()
 //console.log(`Distance between two cities:  ${distance}`);
 
+
+//6. Coordinates of a location (latitude, longitude): 37.7749, -122.4194
+//let coordinates: Location = {
+ //   latitude: number,
+ //   longitude: number
+
+
+
+interface coordinates {
+latitude: number ,
+longitude: string
+}
+let location1:coordinates = {
+latitude: 37.7749,
+longitude: "-122.4194"
+};
+console.log("Coordinates of a location:  latitude", +location1.latitude);
+console.log("Coordinates of a longitude:  longitude", +location1.longitude);
