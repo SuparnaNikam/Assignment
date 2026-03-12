@@ -10,16 +10,15 @@ Mahesh: 90
 Naresh: 92
 Average Marks: 89.0 */
 
-let studentName : string[] = ["Suresh","Mahesh","Naresh"];
-let studentMarks : number[] = [75, 80, 82];
-let studentUpdatedMarks : number[] =[];
+let studentName: string[] = ["Suresh", "Mahesh", "Naresh"];
+let studentMarks: number[] = [75, 80, 82];
+let studentUpdatedMarks: number[] = [];
 let averageMarks: number = 0;
 let i: number = 0;
 console.log("Student name\t Marks \t Upadted Marks");
-for (i = 0; i < studentName.length; i++)
-{
-studentUpdatedMarks[i] = studentMarks[i] + 10;
-console.log(`${i+1}.${studentName[i]}\t${studentMarks[i]}\t${studentUpdatedMarks[i]}`);
-averageMarks = averageMarks + studentUpdatedMarks[i];
+for (i = 0; i < studentName.length; i++) {
+    studentUpdatedMarks[i] = studentMarks[i] + 10;
+    console.log(`${i + 1}.${studentName[i]}\t${studentMarks[i]}\t${studentUpdatedMarks[i]}`);
+    averageMarks = averageMarks + studentUpdatedMarks[i];
 }
-console.log("Average Marks: "+ averageMarks/(studentUpdatedMarks.length));
+console.log("Average Marks: " + averageMarks / (studentUpdatedMarks.length));
