@@ -42,12 +42,12 @@ employees.push(getEmpData(4, "David Brown", 90000, 10.2, 2.5));
 employees.push(getEmpData(5, "Eva Green", 60000, 2.4, 3.5));
 
 let empRevisedSalary: Map<string, number> = new Map();
-for (const tempemp of employees) {
+for (let tempemp of employees) {
     console.log(tempemp);
     calculateHike(tempemp);
 }
 console.log("Employee with their Hike")
-for (const tempHike of empRevisedSalary) {
+for (let tempHike of empRevisedSalary) {
     console.log(tempHike);
 }
 
@@ -57,19 +57,24 @@ function calculateHike(tempemp: empYearEndData): void {
     let hike: number = 0;
     if (tempemp.yearEndRating >= 4) {
         hike = tempemp.baseSalary + (tempemp.baseSalary / 15 * 100) + 1500;
-        if (tempemp.experience > 5) hike = hike + 5000;
-        empRevisedSalary.set(tempemp.name, hike / tempemp.baseSalary);
+
     }
     else if (tempemp.yearEndRating >= 3 && tempemp.yearEndRating < 4) {
         hike = tempemp.baseSalary + (tempemp.baseSalary / 10 * 100) + 1200;
-        if (tempemp.experience > 5) hike = hike + 5000;
-        empRevisedSalary.set(tempemp.name, hike / tempemp.baseSalary);
+
+
     }
     else {
         hike = tempemp.baseSalary + (tempemp.baseSalary / 3 * 100) + 300;
-        if (tempemp.experience > 5) hike = hike + 5000; 1
-        empRevisedSalary.set(tempemp.name, hike / tempemp.baseSalary);
+
     }
+
+
+    if (tempemp.experience > 5) 
+        hike = hike + 5000;
+        empRevisedSalary.set(tempemp.name, hike / tempemp.baseSalary);
+    
+
 
 
 }
