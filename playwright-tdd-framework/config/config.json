@@ -1,0 +1,24 @@
+{
+    "app": {
+        "url": "https://accounts.creatio.com/login/alm",
+        "titlte": "Log in | Creatio",
+        "username": "suparna.ashish.study.doc@gmail.com",
+        "Password": "Study.doc@01"
+    },
+    "db": {
+        "host": "localhost",
+        "port": 330,
+        "username": "xyz",
+        "password": "xyz",
+        "database": "xyz"
+    },
+    "api": {
+        "endpoint": "https://api.examples.cpm",
+        "key": "api_key"
+    },
+    "olama": {
+        "model": "olama/model.lates",
+        "temperatur": 0.7,
+        "max_tokens": 100
+    }
+}
