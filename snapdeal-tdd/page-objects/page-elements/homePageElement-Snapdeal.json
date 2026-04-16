@@ -1,0 +1,32 @@
+{   
+    "TopHeader_locator":"div[class='TopHeaderStrip-module__6YAW_G__container']",
+    "SearchBox_locator":"input#search-box-input",
+    "SanpdealLogo_locator":"div[class='HeaderStyle__HeaderLeftContent-sc-dc90d7cb-2 bEskku']",
+    "LoginLink_getByText":"Login",
+    "RegisterLink_getByText":"Register",
+    "LogincloseBtn_locator":"button.LoginModal-module__a1Mp7G__closeButton",
+    "MyCartLink_getByText":"My Cart",
+    "DownLoadappLink_getByText":"Download App",
+    "Men'sFashionLink_locator":"div#tab-category-0>div[class = 'TabsCategoriesStyle__TabsCategoriesItemText-sc-6a467a6e-3 cCCihD']",
+    "Women'sFashionLink_locator":"div#tab-category-1>div[class = 'TabsCategoriesStyle__TabsCategoriesItemText-sc-6a467a6e-3 cCCihD']",
+    "Home&KitchenLink_locator":"div#tab-category-2>div[class = 'TabsCategoriesStyle__TabsCategoriesItemText-sc-6a467a6e-3 cCCihD']",
+    "Kid'sFashionLink_locator":"div#tab-category-3>div[class = 'TabsCategoriesStyle__TabsCategoriesItemText-sc-6a467a6e-3 cCCihD']",
+    "Beauty&HealthLink_locator":"div#tab-category-4>div[class = 'TabsCategoriesStyle__TabsCategoriesItemText-sc-6a467a6e-3 cCCihD']",
+    "AutomotivesLink_locator":"div#tab-category-5>div[class = 'TabsCategoriesStyle__TabsCategoriesItemText-sc-6a467a6e-3 cCCihD']",
+    "MobileAccessoriesLink_locator":"div#tab-category-6>div[class = 'TabsCategoriesStyle__TabsCategoriesItemText-sc-6a467a6e-3 cCCihD']",
+    "ElectronicsLink_locator":"div#tab-category-7>div[class = 'TabsCategoriesStyle__TabsCategoriesItemText-sc-6a467a6e-3 cCCihD']", 
+ "Sports&FitnessLink_locator":"div#tab-category-8>div[class = 'TabsCategoriesStyle__TabsCategoriesItemText-sc-6a467a6e-3 cCCihD']", 
+    "Computers&Gaming_locator":"div#tab-category-9>div[class = 'TabsCategoriesStyle__TabsCategoriesItemText-sc-6a467a6e-3 cCCihD']",
+    "BooksLink_locator":"div#tab-category-10>div[class = 'TabsCategoriesStyle__TabsCategoriesItemText-sc-6a467a6e-3 cCCihD']",
+    "HobbiesLink_locator":"div#tab-category-11>div[class = 'TabsCategoriesStyle__TabsCategoriesItemText-sc-6a467a6e-3 cCCihD']",
+
+    "Atop_img_slider_locator":"img[alt = 'ATOP']",
+"freedeliverystripwebupdated_locator":"img[alt ='freedeliverystripwebupdated']",
+"DealOfTheDayBanner_getByText" :"Deal Of The Day",
+    "watches_locator":"img[alt ='Watches']",
+
+"viewMoreBtn_locator":"span[class= 'ExploreMoreProductsStyle__ExploreMoreProductsButton-sc-94f6724f-13 ePdFtk']"
+
+
+
+}
